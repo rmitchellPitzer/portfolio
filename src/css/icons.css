@@ -1,0 +1,59 @@
+.icon{
+    color: white;
+    position: initial;
+    z-index: 5;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition-duration: .2s;
+    flex-basis: 0%;
+    max-height: 0;
+    min-width: 0;
+    min-height: 0;
+}
+
+.iconContainer{
+    align-items: flex-start;
+    margin-left: 20px;
+    flex-direction: column;
+    display: flex;
+    padding-top: 50vh;
+    gap: 70px;
+}
+
+#GithubIcon:hover{
+    color: #6295ea;
+    font-size: 45px;
+}
+
+#LinkedinIcon:hover{
+    color: #6295ea;
+    size: 25px;
+    font-size: 45px;
+
+}
+
+#ResumeIcon:hover{
+    color: #78e791;
+    font-size: 45px;
+}
+
+#GithubIcon:active{
+    color: #6295ea;
+    font-size: 45px;
+}
+
+#LinkedinIcon:active{
+    color: #6295ea;
+    size: 25px;
+    font-size: 45px;
+
+}
+
+#ResumeIcon:active{
+    color: #78e791;
+    font-size: 45px;
+}
+
+
