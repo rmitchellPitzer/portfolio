@@ -25,18 +25,21 @@
 #GithubIcon:hover{
     color: #6295ea;
     font-size: 45px;
+    cursor: pointer;
 }
 
 #LinkedinIcon:hover{
     color: #6295ea;
     size: 25px;
     font-size: 45px;
+    cursor: pointer;
 
 }
 
 #ResumeIcon:hover{
     color: #78e791;
     font-size: 45px;
+    cursor: pointer;
 }
 
 #GithubIcon:active{
@@ -48,6 +51,7 @@
     color: #6295ea;
     size: 25px;
     font-size: 45px;
+
 
 }
 

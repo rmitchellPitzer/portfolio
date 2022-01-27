@@ -1,0 +1,41 @@
+.RecentProjectsPage{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 100%;
+    padding-top: 20px;
+    overflow-x: hidden;
+}
+
+.recentProjectsTitle{
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 350;
+    color: #214a8c
+}
+
+.projectsContainer{
+    display: flex;
+}
+
+.projectTitle{
+    color: #e5e5e5;
+    font-size: 20px;
+}
+
+.projectImage{
+    width: 45vw;
+    height: 25vh;
+    object-fit: cover;
+}
+
+.projectGithubLink{
+    color: #e5e5e5;
+    font-size: 18px;}
+
+projectGithubLink:hover{
+    color: #0022ff;
+}

@@ -11,7 +11,7 @@ export default function FrontPageIcons() {
     return (
         <div className = "iconContainer">
             <button
-                type="button" onClick={() => console.log("Hello!")}
+                type="button" onClick={() => window.open('https://github.com/rmitchellPitzer')}
                 className = "icon"
                 id="GithubIcon"
 
@@ -19,7 +19,7 @@ export default function FrontPageIcons() {
                 title="My Github"
             ><FontAwesomeIcon icon= {faGithub}/></button>
             <button
-                type="button" onClick={() => console.log("Hello!")}
+                type="button" onClick={() => window.open('https://www.linkedin.com/in/ryder-mitchell-33516322a/')}
                 className = "icon"
                 id="LinkedinIcon"
 
@@ -27,14 +27,13 @@ export default function FrontPageIcons() {
                 title="My Linkedin"
             ><FontAwesomeIcon icon= {faLinkedin}/></button>
             <button
-                type="button" onClick={() => console.log("Hello!")}
+                type="button" onClick={() => window.open('https://drive.google.com/file/d/1Caq79pSWSXEEP82TgMoNgepagswKu1zg/view?usp=sharing')}
                 className = "icon"
                 id="ResumeIcon"
 
                 aria-label="Click to see my resume"
                 title="My resume"
             ><FontAwesomeIcon icon= {faFileCsv}/></button>
-
         </div>
     )
 }

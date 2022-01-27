@@ -14,6 +14,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Typist from 'react-typist';
 import FrontPageIcons from "./components/FrontPageIcons";
 import AboutMe from "./components/AboutMe";
+import RecentProjects from "./components/RecentProjects";
 
 // import Aos from "aos";
 // import "aos/dist/aos.css";
@@ -27,9 +28,13 @@ function App() {
           <Bubbles/>
           <div className="myName">Ryder Mitchell</div>
           <Description/>
-          <FrontPageIcons/></div>
+          <FrontPageIcons/>
+          </div>
           <div className="SecondPage">
           <AboutMe/>
+              <div className="ThirdPage">
+                  <RecentProjects/>
+              </div>
           </div>
       </div>
   );
