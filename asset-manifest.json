@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c74c0ba6.css",
-    "main.js": "/portfolio/static/js/main.66148dcc.js",
+    "main.css": "/portfolio/static/css/main.b4dbc004.css",
+    "main.js": "/portfolio/static/js/main.192ffbeb.js",
     "static/js/787.9b9c0edf.chunk.js": "/portfolio/static/js/787.9b9c0edf.chunk.js",
     "static/media/sampleelectronapp1.png": "/portfolio/static/media/sampleelectronapp1.7d8b74ba09eccfab260c.png",
     "static/media/sampleelectronapp2.png": "/portfolio/static/media/sampleelectronapp2.3cf061aca8c8c6538aed.png",
@@ -36,12 +36,12 @@
     "static/media/roboto-latin-400.woff2": "/portfolio/static/media/roboto-latin-400.176f8f5bd5f02b3abfcf.woff2",
     "static/media/roboto-latin-900.woff2": "/portfolio/static/media/roboto-latin-900.870c8c1486f76054301a.woff2",
     "index.html": "/portfolio/index.html",
-    "main.c74c0ba6.css.map": "/portfolio/static/css/main.c74c0ba6.css.map",
-    "main.66148dcc.js.map": "/portfolio/static/js/main.66148dcc.js.map",
+    "main.b4dbc004.css.map": "/portfolio/static/css/main.b4dbc004.css.map",
+    "main.192ffbeb.js.map": "/portfolio/static/js/main.192ffbeb.js.map",
     "787.9b9c0edf.chunk.js.map": "/portfolio/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c74c0ba6.css",
-    "static/js/main.66148dcc.js"
+    "static/css/main.b4dbc004.css",
+    "static/js/main.192ffbeb.js"
   ]
 }
