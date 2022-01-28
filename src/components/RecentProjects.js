@@ -18,37 +18,39 @@ import todoiz2 from "../media/todoiz/todoiz2.png"
 export default function RecentProjects() {
     return(
     <div className="RecentProjectsPage">
+
         <div className="recentProjectsTitle">Recent Projects</div>
+        <div data-aos="zoom-out">
         <div className="projectsContainer">
-            <div data-aos="zoom-out" data-aos-delay='100' className="SkillIconItem">
+            <div className="SkillIconItem">
                 <img src={todoiz1} className="projectImage"></img>
-                {/*<div className="projectTitle">ToDoiz.io <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://github.com/rmitchellPitzer/cs124-1">Github Repo</a>*/}
-                {/*    <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://rmitchellpitzer.github.io/cs124-1/">Deployment</a>*/}
-                {/*</div>*/}
-            </div>
-
-            <div data-aos="zoom-out" data-aos-delay='200' className="SkillIconItem">
-                <img src={startstyletransfer1} className="projectImage"></img>
-                {/*<div className="projectTitle">startStyleTransfer <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://github.com/rmitchellPitzer/StartStyleTransfer">Github Repo</a></div>*/}
-            </div>
-        </div>
-
-        <div className="projectsContainer">
-            <div data-aos="zoom-out" data-aos-delay='100' className="SkillIconItem">
-                <img src={outersounds2} className="projectImage"></img>
-                {/*<div className="projectTitle">Outer Sounds*/}
-                {/*    <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://github.com/rmitchellPitzer/LoFiOuterWildsToStudyAndChillTo">Github Repo</a>*/}
-                {/*    <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://rmitchellpitzer.github.io/LoFiOuterWildsToStudyAndChillTo/">Deployment</a>*/}
-                {/*</div>*/}
-            </div>
-
-            <div data-aos="zoom-out" data-aos-delay='200' className="SkillIconItem">
-                <img src={sampleelectronapp1} className="projectImage"></img>
-                <div className="projectTitle">Sample Electron App
-                    {/*<br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://github.com/rmitchellPitzer/SampleElectronApp">Github Repo</a>*/}
+                <div className="projectTitle">ToDoiz.io <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://github.com/rmitchellPitzer/cs124-1">Github Repo</a>
+                    <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://rmitchellpitzer.github.io/cs124-1/">Deployment</a>
                 </div>
             </div>
+
+            <div  className="SkillIconItem">
+                <img src={startstyletransfer1} className="projectImage"></img>
+                <div className="projectTitle">startStyleTransfer <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://github.com/rmitchellPitzer/StartStyleTransfer">Github Repo</a></div>
+            </div>
         </div>
 
+        <div className="projectsContainer">
+            <div className="SkillIconItem">
+                <img src={outersounds2} className="projectImage"></img>
+                <div className="projectTitle">Outer Sounds
+                    <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://github.com/rmitchellPitzer/LoFiOuterWildsToStudyAndChillTo">Github Repo</a>
+                    <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://rmitchellpitzer.github.io/LoFiOuterWildsToStudyAndChillTo/">Deployment</a>
+                </div>
+            </div>
+
+            <div className="SkillIconItem">
+                <img src={sampleelectronapp1} className="projectImage"></img>
+                <div className="projectTitle">Sample Electron App
+                    <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://github.com/rmitchellPitzer/SampleElectronApp">Github Repo</a></div>
+            </div>
+        </div>
+
+        </div>
     </div>)
 }

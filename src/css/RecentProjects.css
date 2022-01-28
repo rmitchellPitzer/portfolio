@@ -1,5 +1,4 @@
 .RecentProjectsPage{
-    font-family: Roboto;
     font-size: 24px;
     font-weight: 300;
     display: flex;
@@ -8,6 +7,9 @@
     width: 100%;
     padding-top: 20px;
     overflow-x: hidden;
+    min-height: 160vh;
+    height: fit-content;
+    overflow-y: hidden;
 }
 
 .recentProjectsTitle{
@@ -19,6 +21,8 @@
 
 .projectsContainer{
     display: flex;
+    gap: 2vw;
+    height: 62vh;
 }
 
 .projectTitle{
@@ -27,9 +31,11 @@
 }
 
 .projectImage{
-    width: 45vw;
-    height: 25vh;
+    width: 40vw;
+    height: 40vh;
     object-fit: cover;
+    border-radius: 15px;
+    transition: .5s;
 }
 
 .projectGithubLink{
@@ -38,4 +44,10 @@
 
 projectGithubLink:hover{
     color: #0022ff;
+}
+
+.projectImage:hover{
+    width: 43vw;
+    height: 45vh;
+    transition: .5s;
 }

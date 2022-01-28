@@ -18,10 +18,14 @@ body {
 
 .ThirdPage{
   background-color: #090909;
-  height: 100vh;
+  height: fit-content;
+  min-height: 110vh;
+  overflow-x: hidden;
   width: 100%;
   z-index: 4;
   position: relative;
+  overflow: hidden;
+  overflow-y: hidden;
 }
 
 
