@@ -23,21 +23,28 @@ export default function RecentProjects() {
         <div data-aos="zoom-out">
         <div className="projectsContainer">
             <div className="SkillIconItem">
+                <button type="button" className="projectButton" onClick={() => window.open('https://rmitchellpitzer.github.io/cs124-1/')}>
                 <img src={todoiz1} className="projectImage"></img>
-                <div className="projectTitle">ToDoiz.io <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://github.com/rmitchellPitzer/cs124-1">Github Repo</a>
+                </button>
+                <div className="projectTitle">ToDoiz.io
+                    <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://github.com/rmitchellPitzer/cs124-1">Github Repo</a>
                     <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://rmitchellpitzer.github.io/cs124-1/">Deployment</a>
                 </div>
             </div>
 
             <div  className="SkillIconItem">
+                <button type="button" className="projectButton" onClick={() => window.open('https://github.com/rmitchellPitzer/StartStyleTransfer')}>
                 <img src={startstyletransfer1} className="projectImage"></img>
+                </button>
                 <div className="projectTitle">startStyleTransfer <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://github.com/rmitchellPitzer/StartStyleTransfer">Github Repo</a></div>
             </div>
         </div>
 
         <div className="projectsContainer">
             <div className="SkillIconItem">
+                <button type="button" className="projectButton" onClick={() => window.open('https://rmitchellpitzer.github.io/LoFiOuterWildsToStudyAndChillTo/')}>
                 <img src={outersounds2} className="projectImage"></img>
+                </button>
                 <div className="projectTitle">Outer Sounds
                     <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://github.com/rmitchellPitzer/LoFiOuterWildsToStudyAndChillTo">Github Repo</a>
                     <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://rmitchellpitzer.github.io/LoFiOuterWildsToStudyAndChillTo/">Deployment</a>
@@ -45,7 +52,9 @@ export default function RecentProjects() {
             </div>
 
             <div className="SkillIconItem">
+                <button type="button" className="projectButton" onClick={() => window.open('https://github.com/rmitchellPitzer/SampleElectronApp')}>
                 <img src={sampleelectronapp1} className="projectImage"></img>
+                </button>
                 <div className="projectTitle">Sample Electron App
                     <br/> <a target="_blank" rel="noopener noreferrer" className= "projectGithubLink" href="https://github.com/rmitchellPitzer/SampleElectronApp">Github Repo</a></div>
             </div>

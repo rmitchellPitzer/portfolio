@@ -50,4 +50,11 @@ projectGithubLink:hover{
     width: 43vw;
     height: 45vh;
     transition: .5s;
+    cursor: pointer;
+}
+
+.projectButton{
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
