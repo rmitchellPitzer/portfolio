@@ -368,6 +368,8 @@ object-position: 0% 15%;}
     z-index: 60;
     height: fit-content;
     cursor: pointer;
+    background-color: transparent;
+
 }
 
 
