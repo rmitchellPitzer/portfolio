@@ -2,7 +2,7 @@ import './css/App.css';
 import './css/titles.css';
 import './css/index.css';
 import './css/icons.css';
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import ReactDOM from 'react-dom';
 import Bubbles from "./animatedComponents/bubblesBackground";
 import Description from "./animatedComponents/Description";
@@ -22,11 +22,20 @@ import RecentProjects from "./components/RecentProjects";
 
 
 function App() {
+    const [offsetY, setOffsetY] = useState(0);
+    const handleScroll = () => setOffsetY(window.pageYOffset);
+
+    useEffect(() => {
+        window.addEventListener("scroll", null);
+
+        return () => window.removeEventListener("scroll", handleScroll)
+    }, []);
+
   return (
       <div className="appContents">
-          <div className="FirstPage">
-          <Bubbles/>
-          <div className="myName">Ryder Mitchell</div>
+          <div className="FirstPage" style={{transform: 'translateY(${ offsetY * 20}px)'}}>
+          <Bubbles style={{transform: 'translateY(${ offsetY * 0.5}px)'}}/>
+          <div className="myName" >Ryder Mitchell</div>
           <Description/>
           <FrontPageIcons/>
           </div>

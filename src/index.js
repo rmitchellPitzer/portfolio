@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
 import "typeface-roboto";
-import App from './App';
+import App from './srcCopy/App';
 import reportWebVitals from './reportWebVitals';
 
 

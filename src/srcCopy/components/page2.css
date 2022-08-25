@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+.page2BackgroundImage{
+    width: 100vw;
+    height: 100vh;
+    max-height: 2000px;
+    object-fit: cover;
+    position: relative;
+    z-index: 40;
+    object-position: 0% 5%;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/*.page2{*/
+/*    width: fit-content;*/
+/*    overflow: hidden;*/
+/*}*/
+
+.page2Container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 20vh;
+    z-index: 51;
+    align-content: center;
+    text-align: center;
+    margin-top: -45vh;
+    gap: 25vh
+}
+.aboutMeBox{
+    margin-left: 10vw;
+    z-index: 52;
+    flex-direction: column;
+    width: 80vw;
+    height: fit-content;
+    /*background-color: #ffdcea;*/
+    /*opacity: 40%;*/
+    background-color: rgba(246, 190, 190, .75);
+    border-radius: 2vw;
+    gap: 200px;
+
+}
+
+.aboutMeText{
+    font-family: 'Hind', sans-serif;
+    font-size: calc(40px + 2vh);
+    /*font-weight: bold;*/
+    /*position: absolute; top: 0;*/
+    margin-top: calc(.25vh);
+    opacity: 100%;
+    text-align: left;
+    margin-left: 1vw;
+    font-weight: 700;
+}
+
+.aboutMeDescriptionContainer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 2vw;
+}
+
+.aboutMeDescription{
+    font-family: 'Hind', sans-serif;
+    font-size: calc(2.4vw - .2vh);
+    /*font-weight: bold;*/
+    /*position: absolute; top: 0;*/
+    margin-top: calc(-1vw);
+    opacity: 100%;
+    text-align: left;
+    margin-left: 1vw;
+    font-weight: 500;
+    width: 39vw;
+}
+
+.aboutMeBox2{
+    margin-left: 10vw;
+    z-index: 52;
+    flex-direction: column;
+    width: 80vw;
+    /*height: 20vw;*/
+    /*background-color: #ffdcea;*/
+    /*opacity: 40%;*/
+    background-color: rgba(246, 190, 190, .75);
+    border-radius: 2vw;
+    gap: 200px;
+}
+
+.aboutMeSkillsDescription{
+    font-family: 'Hind', sans-serif;
+    font-size: calc(2.2vw - 6px);
+    /*font-weight: bold;*/
+    /*position: absolute; top: 0;*/
+    margin-top: calc(-1vw);
+    opacity: 100%;
+    margin-left: 2.5vw;
+    font-weight: 500;
+    width: 75vw;
+    text-align: center;
+}
+
+.aboutMeSkillsContainer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 3.33vw;
+    margin-top: -.8vw;
+}
+.skillElement{
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    width: 7vw;
+    font-family: 'Hind', sans-serif;
+    font-size: calc(2vw);
+}
+
+.SkillIconText{
+    margin-top: -.8vw;
+
+}
+
+
+.aboutMeDescriptionContainerPhone{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2vw;
+}
+
+.aboutMeDescriptionPhone{
+    font-family: 'Hind', sans-serif;
+    font-size: calc(2.2vh);
+    opacity: 100%;
+    margin-left: 2vw;
+    font-weight: 500;
+    width: 76vw;
+    text-align: center;
+        /*font-weight: bold;*/
+}
+
+.aboutMeSkillsContainerPhone{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 3.33vw;
+    margin-top: -.8vw;
+}
+.skillElementPhone{
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    width: 7vw;
+    font-family: 'Hind', sans-serif;
+    font-size: calc(10vw);
+}
+
+.aboutMeSkillsDescriptionPhone{
+    font-family: 'Hind', sans-serif;
+    font-size: calc(2.2vh);
+    /*font-weight: bold;*/
+    /*position: absolute; top: 0;*/
+    margin-top: calc(-1vw);
+    opacity: 100%;
+    margin-left: 2.5vw;
+    font-weight: 500;
+    width: 75vw;
+    text-align: center;
+}

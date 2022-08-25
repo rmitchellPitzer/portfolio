@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+.page3BackgroundImage{
+    width: 100vw;
+    height: 100vh;
+    max-height: 2000px;
+    object-fit: cover;
+    position: relative;
+    z-index: 40;
+    max-width: 100%;
+    /*margin: 0px;*/
+    padding: 0px;
+    overflow-x: hidden;
+}
+.page3TitleText{
+    position: relative;
+    font-family: 'Hind', sans-serif;
+    font-size: calc(70px + 1vw);
+    font-weight: bold;
+    text-align: left;
+    line-height: 10vw;
+}
+
+.page3BlackBar{
+    position: relative;
+    background-color: black;
+    width: 48vw;
+    height: 2px;
+    /*margin-top: 35vh;*/
+}
+
+.page3Container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    width: 80vw;
+    gap: 0vw;
+    /*margin-top: 24.5vh;*/
+    margin-top: 20vh;
+    z-index: 50;
+}
+
+.page3DescriptionText{
+    position: relative;
+    font-family: 'Hind', sans-serif;
+    font-size: calc(20px + 1vw);
+    /*font-weight: bold;*/
+    width: 48vw;
+    text-align: left;
+    /*margin-top: 45px;*/
+    height: fit-content;
+}
+
+.blackBackground{
+    width: 100vw;
+    height: 100vh;
+    max-height: 2000px;
+    object-fit: cover;
+    object-position: 0% 0%;
+    max-width: 100%;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: black;
+    position: absolute;
+    /*margin: 0px;*/
+    margin-top: 24.5vh;
+    /*transition-duration: .5s;*/
+    z-index: 41;
+}
+
+.page3IconContainer{
+    z-index: 42;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /*margin-left: 10vw;*/
+    width: 48vw;
+    gap: 10vw;
+    align-content: center;
+    justify-content: center;
+
+    /*align-items: center;*/
+    /*margin-top: 24.5vh;*/
+    /*margin-top: 40vh;*/
+}
+
+.page3Deployment{
+    position: relative;
+    font-family: 'Hind', sans-serif;
+    font-size: calc(20px + .8vw);
+    /*font-weight: bold;*/
+    width: 18vw;
+    text-align: center;
+    margin-top: 20px;
+    outline: #000000 solid 2px;
+    border-radius: 1vw;
+    transition-duration: .2s;
+    z-index: 60;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.page3Github{
+    position: relative;
+    font-family: 'Hind', sans-serif;
+    font-size: calc(20px + .8vw);
+    /*font-weight: bold;*/
+    width: 18vw;
+    text-align: center;
+    margin-top: 20px;
+    /*background-color: transparent;*/
+    border-radius: 1vw;
+    transition-duration: .2s;
+    z-index: 60;
+    height: fit-content;
+    cursor: pointer;
+    /*border: 2px solid black;*/
+    outline: #000000 solid 2px;
+    /*margin: auto;*/
+    /*padding: 20px;*/
+    background-color: transparent;
+}
+
+.page3Github:hover{
+    font-size: calc(25px + 1vw);
+    transition-duration: .2s;
+    border-radius: calc(1.1vw);
+
+}
+
+.page3Deployment:hover {
+    font-size: calc(25px + 1vw);
+    transition-duration: .2s;
+    border-radius: calc(1.1vw);
+}
+
+/*.page3ButtonsContainer{*/
+/*    position: absolute;*/
+/*    display: flex;*/
+/*    z-index: 55;*/
+/*    margin-top: 74.5vh;*/
+/*    flex-direction: row;*/
+/*    gap: 85vw;*/
+/*    justify-content: center;*/
+/*    margin-left: 3.5vw;*/
+/*    min-width: 0;*/
+/*    flex-flow:row wrap;*/
+
+/*}*/
+
+.page3RightArrow{
+    position: relative;
+    font-size: 4vw;
+    min-width: 0;
+    z-index: 50;
+    transition-duration: .2s;
+    text-align: center;
+    width: 5vw;}
+
+
+.page3LeftArrow{
+    position: relative;
+    font-size: 4vw;
+    min-width: 0;
+    z-index: 50;
+    transition-duration: .2s;
+    text-align: center;
+    width: 5vw;}
+
+.page3RightArrow:hover{
+    font-size: 4.5vw;
+    cursor: pointer;
+
+}
+
+.page3LeftArrow:hover{
+    font-size: 4.5vw;
+    cursor: pointer;
+}
+
+.page3Box{
+    width: 500vw;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    gap: 0px;
+    position: absolute;
+    flex-direction: row;
+    transition-duration: .5s;
+}
+
+.page3boxContainer{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    gap: 0px;
+    position: absolute;
+    margin-top: 24.5vh;
+}
+
+#styleTransfer{
+object-position: 0% 15%;}
+
+#todo{
+    object-position: 0% 2%;}
+
+#outerWilds{
+    object-position: 0% 100%;}
+
+#pollen{
+    object-position: 0% 10%;}
+
+.page3ArrowContainer{
+    display: flex;
+    margin-top: 74.5vh;
+    flex-direction: row;
+    position: absolute;
+    width: 95vw;
+    height: 20vh;
+    margin-left: 2.5vw;
+    gap: 85vw;
+    z-index: 50;
+}
+
+.page3DescriptionTextPhone{
+    position: relative;
+    font-family: 'Hind', sans-serif;
+    font-size: calc(3vh);
+    /*font-weight: bold;*/
+    width: 70vw;
+    text-align: left;
+    /*margin-top: 45px;*/
+    height: fit-content;
+}
+
+.page3ContainerPhone{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    width: 85vw;
+    gap: 0vw;
+    /*margin-top: 24.5vh;*/
+    margin-top: 10vh;
+    z-index: 50;
+}
+
+.page3BlackBarPhone{
+    position: relative;
+    background-color: black;
+    width: 70vw;
+    height: 2px;
+    /*margin-top: 35vh;*/
+}
+
+.page3TitleTextPhone{
+    position: relative;
+    font-family: 'Hind', sans-serif;
+    font-size: calc(17vw);
+    font-weight: bold;
+    text-align: left;
+    line-height: 8vh;
+    margin-bottom: 1vh;
+}
+
+.page3ArrowContainerPhone{
+    display: flex;
+    margin-top: 74.5vh;
+    flex-direction: row;
+    position: absolute;
+    width: 95vw;
+    height: 20vh;
+    margin-left: 2.5vw;
+    gap: 65vw;
+    z-index: 50;
+}
+
+.page3LeftArrowPhone{
+    position: relative;
+    font-size: 15vw;
+    min-width: 0;
+    z-index: 50;
+    transition-duration: .2s;
+    text-align: center;
+    width: 20vw;
+}
+
+.page3RightArrowPhone{
+    position: relative;
+    font-size: 15vw;
+    min-width: 0;
+    z-index: 50;
+    transition-duration: .2s;
+    text-align: center;
+    width: 20vw;}
+
+.page3PhoneNavigationButton{
+    position: absolute;
+    width: 10vw;
+    height: 6vw;
+    margin-top: 117.5vh;
+    z-index: 70;
+    margin-left: -5vw;
+    border-radius: 2000px;
+    border: none;
+    color: #e5e5e5;
+    transition-duration: .5s}
+
+
+#nav0{
+    margin-left: -35vw;
+}
+
+#nav1{
+    margin-left: -20vw;
+}
+
+#nav2{
+    margin-left: -5vw;
+}
+
+#nav3{
+    margin-left: 10vw;
+}
+
+#nav4{
+    margin-left: 25vw;
+}
+
+#todoPhone{
+    object-position: 15% 80%;}
+
+#outerWildsPhone{
+    object-position: 40% 80%;}
+
+
+.page3IconContainerPhone{
+    z-index: 42;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /*margin-left: 10vw;*/
+    width: 70vw;
+    gap: 15vw;
+    align-content: center;
+    justify-content: center;
+
+    /*align-items: center;*/
+    /*margin-top: 24.5vh;*/
+    /*margin-top: 40vh;*/
+}
+
+
+.page3DeploymentPhone{
+    position: relative;
+    font-family: 'Hind', sans-serif;
+    font-size: calc(4.5vw);
+    /*font-weight: bold;*/
+    width: 35vw;
+    text-align: center;
+    margin-top: 20px;
+    outline: #000000 solid 2px;
+    border-radius: 1vw;
+    transition-duration: .2s;
+    z-index: 60;
+    height: fit-content;
+    cursor: pointer;
+}
+
+
+.page3GithubPhone{
+    position: relative;
+    font-family: 'Hind', sans-serif;
+    font-size: calc(4.5vw);
+    /*font-weight: bold;*/
+    width: 35vw;
+    text-align: center;
+    margin-top: 20px;
+    /*background-color: transparent;*/
+    border-radius: 1vw;
+    transition-duration: .2s;
+    z-index: 60;
+    height: fit-content;
+    cursor: pointer;
+    /*border: 2px solid black;*/
+    outline: #000000 solid 2px;
+    /*margin: auto;*/
+    /*padding: 20px;*/
+    background-color: transparent;
+}
+
+
+.page3GithubPhone:hover{
+    font-size: calc(5vw);
+    transition-duration: .2s;
+    border-radius: calc(1.1vw);
+
+}
+
+.page3DeploymentPhone:hover {
+    font-size: calc(5vw);
+    transition-duration: .2s;
+    border-radius: calc(1.1vw);
+}
+
+#pollenTitleFix{
+    font-size: calc(14vw);
+}
+
+#pollenPhone{
+    object-position: 60% 50%;
+}
+
+#styleTransferPhone{
+    object-position: 10% 50%;
+}

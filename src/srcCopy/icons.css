@@ -1,0 +1,137 @@
+.cardStack{
+    /*right: calc(30% - 23vw);*/
+    /*top: calc(24vw);*/
+    /*background-color: blue;*/
+    width: 26vw;
+    height: 23vw;
+    position: absolute;
+    background-color: transparent;
+    /*right: calc(20% - 23vw);*/
+    /*top: calc(50% - 150px);*/
+    border-radius: 2vw;
+    z-index: 25;
+    /*background-color: red;*/
+    cursor: pointer;
+    margin-left: -2vw;
+}
+
+.page1pagecardStack:hover{
+    width: 26vw;
+    height: 23vw;
+    margin-left: -80px;
+}
+
+.page1pagecardStack:hover + .page1pageicon{
+    transform: rotate(-2deg);
+}
+
+.page1pagecardStack:hover + .page1pageicon + .page1pageicon{
+    transform: rotate(-7deg);
+}
+
+.page1pagecardStack:hover + .page1pageicon + .page1pageicon + .page1pageicon{
+    transform: rotate(-12deg);
+}
+
+.page1pagecardStack:hover + .page1pageicon + .page1pageicon + .page1pageicon + .page1pageicon{
+    transform: rotate(-19deg);
+}
+
+.page1pagecardStack:hover + .page1pageicon + .page1pageicon + .page1pageicon + .page1pageicon + .page1pageicon{
+    transform: rotate(-24deg);
+}
+
+
+
+
+
+
+.icon{
+    position: absolute;
+    /*right: calc(30% - 23vw);*/
+    /*top: calc(-5vw);*/
+    /*background-color: blue;*/
+    width: 23vw;
+    height: 23vw;
+    transition-duration: .2s;
+    transform-origin: bottom left;
+    cursor: pointer;
+}
+
+/*.icon:hover{*/
+/*    cursor: pointer;*/
+/*}*/
+
+
+
+
+
+
+.iconImage{
+    width: 23vw;
+    height: 23vw;
+    border-radius: 2vw;
+}
+
+#icon1{
+    z-index: 6;
+}
+
+#icon2{
+    z-index: 5;
+    margin-left: -10px;
+}
+
+#icon3{
+    z-index: 4;
+    margin-left: -20px;
+}
+
+#icon4{
+    z-index: 3;
+    margin-left: -30px;
+}
+
+#icon5{
+    z-index: 2;
+    margin-left: -40px;
+}
+
+.page1pagecardStack{
+    /*right: calc(30% - 23vw);*/
+    /*top: calc(24vw);*/
+    /*background-color: blue;*/
+    width: 26vw;
+    height: 23vw;
+    position: relative;
+    background-color: transparent;
+    /*right: calc(20% - 23vw);*/
+    /*top: calc(50% - 150px);*/
+    border-radius: 2vw;
+    z-index: 25;
+    /*background-color: red;*/
+    cursor: pointer;
+    margin-left: -2vw;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.page1pageicon{
+    position: absolute;
+    /*right: calc(30% - 23vw);*/
+    /*top: calc(-5vw);*/
+    /*background-color: blue;*/
+    width: 23vw;
+    height: 23vw;
+    transition-duration: .2s;
+    transform-origin: bottom left;
+    cursor: pointer;
+    margin-top: -23vw;
+}
+
+.page1pageiconImage{
+    width: 23vw;
+    height: 23vw;
+    border-radius: 2vw;
+}
+
