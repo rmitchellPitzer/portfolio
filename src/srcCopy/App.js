@@ -56,7 +56,7 @@ function App() {
     let isPhone;
     console.log(windowDimensions)
     if (windowDimensions.height > windowDimensions.width &&
-        windowDimensions.width <= (9/16 * windowDimensions.height)
+        windowDimensions.width <= (13/16 * windowDimensions.height)
         && windowDimensions.width <= 600){
         // console.log("Screen is phone.")
         isPhone = true;

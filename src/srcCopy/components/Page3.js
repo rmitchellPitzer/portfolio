@@ -3,7 +3,7 @@ import {useState} from "react";
 import outerSounds from "../portfolioImages/chert.png";
 import todo from "../portfolioImages/todo3.png";
 import styleTransfer from "../portfolioImages/styleTransfer.png"
-import electron from "../portfolioImages/grasshq.mp4"
+import electron from "../portfolioImages/grass.jpg"
 import pollen from "../portfolioImages/blackAndWhite4.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowCircleLeft } from "@fortawesome/free-solid-svg-icons";
@@ -144,13 +144,13 @@ export default function Page3(args) {
                         </div>
                         <div className={page3BlackBarPhone}></div>
                         <div className={page3IconContainerPhone}>
-                            <div className={page3DeploymentPhone}
+                            <button className={page3DeploymentPhone}
                                  onClick={() => window.open(pageInformation[0][3])}
-                            >Deployment</div>
-                            <div onClick={() => window.open(pageInformation[0][2])}
+                            >Deployment</button>
+                            <button onClick={() => window.open(pageInformation[0][2])}
                                  className={page3GithubPhone}
 
-                            >Github</div>
+                            >Github</button>
                         </div>
                     </div>
                     <img className="page3BackgroundImage" id={todoPhone} src={pageInformation[0][4]}/>
@@ -169,13 +169,13 @@ export default function Page3(args) {
                         </div>
                         <div className={page3BlackBarPhone}></div>
                         <div className={page3IconContainerPhone}>
-                            <div className={page3DeploymentPhone}
+                            <button className={page3DeploymentPhone}
                                  onClick={() => window.open(pageInformation[1][3])}
-                            >Deployment</div>
-                            <div onClick={() => window.open(pageInformation[1][2])}
+                            >Deployment</button>
+                            <button onClick={() => window.open(pageInformation[1][2])}
                                  className={page3GithubPhone}
 
-                            >Github</div>
+                            >Github</button>
                         </div>
                     </div>
                     <img className="page3BackgroundImage" id={outerWildsPhone} src={pageInformation[1][4]}/>
@@ -197,10 +197,10 @@ export default function Page3(args) {
                             {/*<div className="page3Deployment"*/}
                             {/*     onClick={() => window.open(pageInformation[2][3])}*/}
                             {/*>Deployment</div>*/}
-                            <div onClick={() => window.open(pageInformation[2][2])}
+                            <button onClick={() => window.open(pageInformation[2][2])}
                                  className={page3GithubPhone}
 
-                            >Github</div>
+                            >Github</button>
                         </div>
                     </div>
                     <img className="page3BackgroundImage" id={styleTransferPhone} src={pageInformation[2][4]}/>
@@ -222,13 +222,13 @@ export default function Page3(args) {
                             {/*<div className="page3Deployment"*/}
                             {/*     onClick={() => window.open(pageInformation[3][3])}*/}
                             {/*>Deployment</div>*/}
-                            <div onClick={() => window.open(pageInformation[3][2])}
+                            <button onClick={() => window.open(pageInformation[3][2])}
                                  className={page3GithubPhone}
 
-                            >Github</div>
+                            >Github</button>
                         </div>
                     </div>
-                    <video className="page3BackgroundImage" autoPlay={true} loop={true} src={electron}/>
+                    <img className="page3BackgroundImage" src={electron}/>
                 </div>
                 <div className="page3Background4">
                     <div className={page3ContainerPhone}
@@ -247,9 +247,9 @@ export default function Page3(args) {
                             {/*<div className="page3Deployment"*/}
                             {/*     onClick={() => window.open(pageInformation[4][3])}*/}
                             {/*>Deployment</div>*/}
-                            <div onClick={() => window.open(pageInformation[4][2])}
+                            <button onClick={() => window.open(pageInformation[4][2])}
                                  className={page3GithubPhone}
-                            >Github</div>
+                            >Github</button>
                         </div>
                     </div>
                     <img className="page3BackgroundImage" id={pollenPhone} src={pageInformation[4][4]}/>

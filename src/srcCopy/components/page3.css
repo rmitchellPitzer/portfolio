@@ -93,12 +93,13 @@
     width: 18vw;
     text-align: center;
     margin-top: 20px;
-    outline: #000000 solid 2px;
-    border-radius: 1vw;
+    border: 2px solid black;
+    /*outline: #000000 solid 2px;*/    border-radius: 1vw;
     transition-duration: .2s;
     z-index: 60;
     height: fit-content;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .page3Github{
@@ -115,8 +116,8 @@
     z-index: 60;
     height: fit-content;
     cursor: pointer;
-    /*border: 2px solid black;*/
-    outline: #000000 solid 2px;
+    border: 2px solid black;
+    /*outline: #000000 solid 2px;*/
     /*margin: auto;*/
     /*padding: 20px;*/
     background-color: transparent;
@@ -261,7 +262,7 @@ object-position: 0% 15%;}
     font-size: calc(17vw);
     font-weight: bold;
     text-align: left;
-    line-height: 8vh;
+    line-height: 9vh;
     margin-bottom: 1vh;
 }
 
@@ -361,8 +362,8 @@ object-position: 0% 15%;}
     width: 35vw;
     text-align: center;
     margin-top: 20px;
-    outline: #000000 solid 2px;
-    border-radius: 1vw;
+    border: 2px solid black;
+    /*outline: #000000 solid 2px;*/    border-radius: 1vw;
     transition-duration: .2s;
     z-index: 60;
     height: fit-content;
@@ -384,8 +385,8 @@ object-position: 0% 15%;}
     z-index: 60;
     height: fit-content;
     cursor: pointer;
-    /*border: 2px solid black;*/
-    outline: #000000 solid 2px;
+    border: 2px solid black;
+    /*outline: #000000 solid 2px;*/
     /*margin: auto;*/
     /*padding: 20px;*/
     background-color: transparent;
