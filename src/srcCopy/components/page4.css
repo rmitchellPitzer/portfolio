@@ -109,8 +109,8 @@
     object-position: 0% 60%;
     max-width: 100%;
     /*margin: 0px;*/
-    padding: 0px;
     overflow-x: hidden;
+    margin-bottom: -8px;
 }
 
 .page4pagecontainer{
@@ -140,6 +140,7 @@
     border-radius: 2vw;
     background-color: rgba(246, 190, 190, 1);
     border: transparent;
+    color: black;
 }
 
 .page4pageemail:active{
@@ -165,8 +166,7 @@
     z-index: 40;
     object-position: 35% 60%;
     max-width: 100%;
-    /*margin: 0px;*/
-    padding: 0px;
+    margin-bottom: -8px;
     overflow-x: hidden;}
 
 
