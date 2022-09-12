@@ -81,7 +81,6 @@ function App() {
             isPhone = {isPhone}/>
         <Page4
             isPhone = {isPhone}/>
-        />
     </div>
   );
 }
