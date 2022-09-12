@@ -157,7 +157,9 @@
     z-index: 50;
     transition-duration: .2s;
     text-align: center;
-    width: 5vw;}
+    width: 5vw;
+    height: 5vw;}
+
 
 
 .page3LeftArrow{
@@ -167,7 +169,8 @@
     z-index: 50;
     transition-duration: .2s;
     text-align: center;
-    width: 5vw;}
+    width: 5vw;
+    height: 5vw;}
 
 .page3RightArrow:hover{
     font-size: 4.5vw;
@@ -369,6 +372,7 @@ object-position: 0% 15%;}
     height: fit-content;
     cursor: pointer;
     background-color: transparent;
+    color: black;
 
 }
 
@@ -388,6 +392,7 @@ object-position: 0% 15%;}
     height: fit-content;
     cursor: pointer;
     border: 2px solid black;
+    color: black;
     /*outline: #000000 solid 2px;*/
     /*margin: auto;*/
     /*padding: 20px;*/
