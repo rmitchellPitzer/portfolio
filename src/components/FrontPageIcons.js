@@ -27,7 +27,7 @@ export default function FrontPageIcons() {
                 title="My Linkedin"
             ><FontAwesomeIcon icon= {faLinkedin}/></button>
             <button
-                type="button" onClick={() => window.open('https://drive.google.com/file/d/1Caq79pSWSXEEP82TgMoNgepagswKu1zg/view?usp=sharing')}
+                type="button" onClick={() => window.open('https://drive.google.com/drive/u/0/folders/1R2vB-hctV2rZrQhjBVAJqGoAZLW_CJF5')}
                 className = "icon"
                 id="ResumeIcon"
 
