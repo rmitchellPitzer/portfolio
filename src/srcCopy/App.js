@@ -54,7 +54,7 @@ function App() {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
     let isPhone;
-    console.log(windowDimensions)
+    // console.log(windowDimensions)
     if (windowDimensions.height > windowDimensions.width &&
         windowDimensions.width <= (13/16 * windowDimensions.height)
         && windowDimensions.width <= 600){

@@ -3,7 +3,7 @@
 .page3BackgroundImage{
     width: 100vw;
     height: 100vh;
-    max-height: 2000px;
+    max-height: 100vh;
     object-fit: cover;
     position: relative;
     z-index: 40;
@@ -37,7 +37,9 @@
     width: 80vw;
     gap: 0vw;
     /*margin-top: 24.5vh;*/
-    margin-top: 20vh;
+    /*margin-top: 20vh;*/
+    margin-top: 40vh;
+
     z-index: 50;
 }
 
@@ -55,7 +57,7 @@
 .blackBackground{
     width: 100vw;
     height: 100vh;
-    max-height: 2000px;
+    max-height: 100vh;
     object-fit: cover;
     object-position: 0% 0%;
     max-width: 100%;
@@ -88,8 +90,8 @@
 .page3Deployment{
     position: relative;
     font-family: 'Hind', sans-serif;
-    font-size: calc(20px + .8vw);
-    /*font-weight: bold;*/
+    font-size: calc(15px + .8vw);
+    font-weight: normal;
     width: 18vw;
     text-align: center;
     margin-top: 20px;
@@ -98,14 +100,16 @@
     transition-duration: .2s;
     z-index: 60;
     height: fit-content;
+    /*height: 8vh;*/
     cursor: pointer;
     background-color: transparent;
+    /*width: fit-content;*/
 }
 
 .page3Github{
     position: relative;
     font-family: 'Hind', sans-serif;
-    font-size: calc(20px + .8vw);
+    font-size: calc(15px + .8vw);
     /*font-weight: bold;*/
     width: 18vw;
     text-align: center;
@@ -124,16 +128,19 @@
 }
 
 .page3Github:hover{
-    font-size: calc(25px + 1vw);
+    font-size: calc(2vw + 10px);
     transition-duration: .2s;
     border-radius: calc(1.1vw);
 
 }
 
 .page3Deployment:hover {
-    font-size: calc(25px + 1vw);
+    font-size: calc(2vw + 10px);
     transition-duration: .2s;
     border-radius: calc(1.1vw);
+    text-align: center;
+    width: 20vw;
+    /*height: fit*/
 }
 
 /*.page3ButtonsContainer{*/
@@ -423,4 +430,20 @@ object-position: 0% 15%;}
 
 #styleTransferPhone{
     object-position: 10% 50%;
+}
+
+.button1{
+    width: 20vw;
+    height: fit-content;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+button2{
+    width: 20vw;
+    height: fit-content;
+    text-align: center;
+    align-content: center;
+    align-items: center;
 }

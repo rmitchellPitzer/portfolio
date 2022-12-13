@@ -144,13 +144,15 @@ export default function Page3(args) {
                         </div>
                         <div className={page3BlackBarPhone}></div>
                         <div className={page3IconContainerPhone}>
+                            <div className="button1">
                             <button className={page3DeploymentPhone}
                                  onClick={() => window.open(pageInformation[0][3])}
-                            >Deployment</button>
+                            >Deployment</button> </div>
+                            <div className="button2">
                             <button onClick={() => window.open(pageInformation[0][2])}
                                  className={page3GithubPhone}
 
-                            >Github</button>
+                            >Github</button></div>
                         </div>
                     </div>
                     <img className="page3BackgroundImage" id={todoPhone} src={pageInformation[0][4]}/>
@@ -167,15 +169,19 @@ export default function Page3(args) {
                         <div className={page3DescriptionTextPhone}>
                             {pageInformation[1][1]}
                         </div>
-                        <div className={page3BlackBarPhone}></div>
+                        <div className={page3BlackBarPhone} style={{ backgroundColor: "white"}}></div>
                         <div className={page3IconContainerPhone}>
+                            <div className="button1">
                             <button className={page3DeploymentPhone}
                                  onClick={() => window.open(pageInformation[1][3])}
-                            >Deployment</button>
+                                style={{ color: "white", border: "2px solid white"
+                                    }}>Deployment</button></div>
+                            <div className="button2">
                             <button onClick={() => window.open(pageInformation[1][2])}
                                  className={page3GithubPhone}
-
-                            >Github</button>
+                                    style={{ color: "white", border: "2px solid white"
+                                    }}
+                            >Github</button></div>
                         </div>
                     </div>
                     <img className="page3BackgroundImage" id={outerWildsPhone} src={pageInformation[1][4]}/>
@@ -192,14 +198,15 @@ export default function Page3(args) {
                         <div className={page3DescriptionTextPhone}>
                             {pageInformation[2][1]}
                         </div>
-                        <div className={page3BlackBarPhone}></div>
+                        <div className={page3BlackBarPhone} style={{backgroundColor: "white"}}></div>
                         <div className={page3IconContainerPhone}>
                             {/*<div className="page3Deployment"*/}
                             {/*     onClick={() => window.open(pageInformation[2][3])}*/}
                             {/*>Deployment</div>*/}
                             <button onClick={() => window.open(pageInformation[2][2])}
                                  className={page3GithubPhone}
-
+                                    style={{ color: "white", border: "2px solid white"
+                                    }}
                             >Github</button>
                         </div>
                     </div>
@@ -217,14 +224,15 @@ export default function Page3(args) {
                         <div className={page3DescriptionTextPhone}>
                             {pageInformation[3][1]}
                         </div>
-                        <div className={page3BlackBarPhone}></div>
+                        <div className={page3BlackBarPhone} style={{backgroundColor: "white"}}></div>
                         <div className={page3IconContainerPhone}>
                             {/*<div className="page3Deployment"*/}
                             {/*     onClick={() => window.open(pageInformation[3][3])}*/}
                             {/*>Deployment</div>*/}
                             <button onClick={() => window.open(pageInformation[3][2])}
                                  className={page3GithubPhone}
-
+                                    style={{ color: "white", border: "2px solid white"
+                                    }}
                             >Github</button>
                         </div>
                     </div>

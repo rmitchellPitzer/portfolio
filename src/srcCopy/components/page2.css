@@ -2,7 +2,7 @@
 .page2BackgroundImage{
     width: 100vw;
     height: 100vh;
-    max-height: 2000px;
+    max-height: 100vh;
     object-fit: cover;
     position: relative;
     z-index: 40;

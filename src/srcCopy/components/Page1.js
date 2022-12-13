@@ -8,7 +8,7 @@ import { faFileCsv } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function Page1(args) {
-    console.log(args.isPhone)
+    // console.log(args.isPhone)
     let isPhoneContainer = args.isPhone ? "page1pageContainerPhone" : "page1pageContainer";
     let isPhoneContents = args.isPhone ? "page1pagetextContentsPhone" : "page1pagetextContents";
     let isPhoneDescription = args.isPhone ? "page1pagetitleDescriptionPhone" : "page1pagetitleDescription";

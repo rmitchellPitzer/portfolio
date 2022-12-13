@@ -20,7 +20,7 @@
 .page4BackgroundImage{
     width: 100vw;
     height: 100vh;
-    max-height: 2000px;
+    max-height: 100vh;
     object-fit: cover;
     position: relative;
     z-index: 40;
@@ -102,7 +102,7 @@
 .page4pageBackgroundImage{
     width: 100vw;
     height: 100vh;
-    max-height: 2000px;
+    max-height: 100vh;
     object-fit: cover;
     position: relative;
     z-index: 40;
@@ -160,7 +160,7 @@
 .page4pageBackgroundImagePhone{
     width: 100vw;
     height: 100vh;
-    max-height: 2000px;
+    max-height: 100vh;
     object-fit: cover;
     position: relative;
     z-index: 40;

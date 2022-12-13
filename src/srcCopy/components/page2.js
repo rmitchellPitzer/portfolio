@@ -6,7 +6,7 @@ import { faReact, faJsSquare, faGit, faCss3Alt, faHtml5, faPython, faFigma} from
 
 export default function Page2(args) {
 
-    console.log(args.isPhone)
+    // console.log(args.isPhone)
     let aboutMeDescriptionContainerPhone = args.isPhone ? "aboutMeDescriptionContainerPhone" : "aboutMeDescriptionContainer";
     let aboutMeDescriptionPhone = args.isPhone ? "aboutMeDescriptionPhone" : "aboutMeDescription";
     let aboutMeSkillsContainerPhone = args.isPhone ? "aboutMeSkillsContainerPhone" : "aboutMeSkillsContainer";
