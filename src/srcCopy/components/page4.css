@@ -147,6 +147,10 @@
     background-color: rgba(246, 190, 190,.8);
 }
 
+.page4pageemail:hover{
+    background-color: rgba(246, 190, 190, .8);
+}
+
 .page4pagethanks{
     margin-top: 5vh;
     background-color: rgba(246, 190, 190, .5);

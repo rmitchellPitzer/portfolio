@@ -38,7 +38,7 @@
     gap: 0vw;
     /*margin-top: 24.5vh;*/
     /*margin-top: 20vh;*/
-    margin-top: 40vh;
+    margin-top: 30vh;
 
     z-index: 50;
 }
@@ -354,7 +354,7 @@ object-position: 0% 15%;}
     flex-direction: row;
     /*margin-left: 10vw;*/
     width: 70vw;
-    gap: 15vw;
+    gap: 10vw;
     align-content: center;
     justify-content: center;
 
@@ -369,17 +369,19 @@ object-position: 0% 15%;}
     font-family: 'Hind', sans-serif;
     font-size: calc(4.5vw);
     /*font-weight: bold;*/
-    width: 35vw;
+    width: 30vw;
     text-align: center;
     margin-top: 20px;
     border: 2px solid black;
-    /*outline: #000000 solid 2px;*/    border-radius: 1vw;
+    /*!*outline: #000000 solid 2px;*!    border-radius: 1vw;*/
     transition-duration: .2s;
     z-index: 60;
     height: fit-content;
     cursor: pointer;
     background-color: transparent;
     color: black;
+    border-radius: 4vw;
+
 
 }
 
@@ -389,11 +391,11 @@ object-position: 0% 15%;}
     font-family: 'Hind', sans-serif;
     font-size: calc(4.5vw);
     /*font-weight: bold;*/
-    width: 35vw;
+    width: 30vw;
     text-align: center;
     margin-top: 20px;
     /*background-color: transparent;*/
-    border-radius: 1vw;
+    border-radius: 4vw;
     transition-duration: .2s;
     z-index: 60;
     height: fit-content;
@@ -410,14 +412,14 @@ object-position: 0% 15%;}
 .page3GithubPhone:hover{
     font-size: calc(5vw);
     transition-duration: .2s;
-    border-radius: calc(1.1vw);
+    border-radius: calc(4.2vw);
 
 }
 
 .page3DeploymentPhone:hover {
     font-size: calc(5vw);
     transition-duration: .2s;
-    border-radius: calc(1.1vw);
+    border-radius: calc(4.2vw);
 }
 
 #pollenTitleFix{
@@ -442,6 +444,23 @@ object-position: 0% 15%;}
 
 button2{
     width: 20vw;
+    height: fit-content;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.page3button1Phone{
+    width: 10vw;
+    height: fit-content;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.page3button2Phone{
+    width: 10vw;
     height: fit-content;
     text-align: center;
     align-content: center;

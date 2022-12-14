@@ -59,6 +59,9 @@ export default function Page3(args) {
     let page3GithubPhone = args.isPhone ? "page3GithubPhone" : "page3Github";
     let pollenPhone = args.isPhone ? "pollenPhone" : "pollen";
     let styleTransferPhone = args.isPhone ? "styleTransferPhone" : "styleTransfer";
+    let page3button1 = args.isPhone ? "button1Phone" : "button1";
+    let page3button2 = args.isPhone ? "button2Phone" : "button2";
+
 
     return (
         <div>
@@ -144,11 +147,11 @@ export default function Page3(args) {
                         </div>
                         <div className={page3BlackBarPhone}></div>
                         <div className={page3IconContainerPhone}>
-                            <div className="button1">
+                            <div className={page3button1}>
                             <button className={page3DeploymentPhone}
                                  onClick={() => window.open(pageInformation[0][3])}
                             >Deployment</button> </div>
-                            <div className="button2">
+                            <div className={page3button2}>
                             <button onClick={() => window.open(pageInformation[0][2])}
                                  className={page3GithubPhone}
 
@@ -171,12 +174,12 @@ export default function Page3(args) {
                         </div>
                         <div className={page3BlackBarPhone} style={{ backgroundColor: "white"}}></div>
                         <div className={page3IconContainerPhone}>
-                            <div className="button1">
+                            <div className={page3button1}>
                             <button className={page3DeploymentPhone}
                                  onClick={() => window.open(pageInformation[1][3])}
                                 style={{ color: "white", border: "2px solid white"
                                     }}>Deployment</button></div>
-                            <div className="button2">
+                            <div className={page3button2}>
                             <button onClick={() => window.open(pageInformation[1][2])}
                                  className={page3GithubPhone}
                                     style={{ color: "white", border: "2px solid white"

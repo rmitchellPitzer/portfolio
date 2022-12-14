@@ -80,6 +80,8 @@ function App() {
             height = {windowDimensions.height}
             isPhone = {isPhone}/>
         <Page4
+            parallaxProperty = {offsetY}
+            height = {windowDimensions.height}
             isPhone = {isPhone}/>
     </div>
   );

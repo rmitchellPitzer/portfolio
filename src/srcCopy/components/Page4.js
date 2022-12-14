@@ -6,26 +6,18 @@ import birb from "../portfolioImages/birb.jpg"
 
 export default function Page4(args) {
 
-    // const ButtonMailto = ({ mailto, label }) => {
-    //     return (
-    //         <Link
-    //             to='#'
-    //             onClick={(e) => {
-    //                 window.location.href = mailto;
-    //                 e.preventDefault();
-    //             }}
-    //         >
-    //             {label}
-    //         </Link>
-    //     );
-    // };
     let page4pageBackgroundImagePhone = args.isPhone ? "page4pageBackgroundImagePhone" : "page4pageBackgroundImage";
 
     return(
         <div className="page4page">
-            <div className="page4pagecontainer">
+            <div className="page4pagecontainer"
+                 style={{ opacity: `${(args.parallaxProperty/args.height < 2.5 ?
+                             (args.parallaxProperty/args.height - 2.3) * 450
+                             : 90
+                     )}%`}}>
                 <div className="pinkbackground">
-                <div className="page4pagegetintouch">
+                <div className="page4pagegetintouch"
+                >
                 If you'd like to get in touch
                 </div>
 
