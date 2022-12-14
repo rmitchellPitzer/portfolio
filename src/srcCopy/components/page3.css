@@ -367,7 +367,7 @@ object-position: 0% 15%;}
 .page3DeploymentPhone{
     position: relative;
     font-family: 'Hind', sans-serif;
-    font-size: calc(4.5vw);
+    font-size: calc(4vw);
     /*font-weight: bold;*/
     width: 30vw;
     text-align: center;
@@ -389,7 +389,7 @@ object-position: 0% 15%;}
 .page3GithubPhone{
     position: relative;
     font-family: 'Hind', sans-serif;
-    font-size: calc(4.5vw);
+    font-size: calc(4vw);
     /*font-weight: bold;*/
     width: 30vw;
     text-align: center;
@@ -410,14 +410,14 @@ object-position: 0% 15%;}
 
 
 .page3GithubPhone:hover{
-    font-size: calc(5vw);
+    font-size: calc(4vw);
     transition-duration: .2s;
     border-radius: calc(4.2vw);
 
 }
 
 .page3DeploymentPhone:hover {
-    font-size: calc(5vw);
+    font-size: calc(4vw);
     transition-duration: .2s;
     border-radius: calc(4.2vw);
 }
