@@ -33,7 +33,7 @@ export default function Page1(args) {
                     <div className={isPhoneIcons} >
                         <FontAwesomeIcon onClick={() => window.open('https://linkedin.com/in/rmitche')} className={isPhoneIcon} icon={faLinkedin} />
                         <FontAwesomeIcon onClick={() => window.open('https://github.com/rmitchellPitzer')} className={isPhoneIcon} icon= {faGithub}/>
-                        <FontAwesomeIcon onClick={() => window.open('https://drive.google.com/file/d/1FiWybRrJYXQynjETlyFGmanZPOz2FD_j/view?usp=sharing')} className={isPhoneIcon} icon= {faFileCsv}/>
+                        <FontAwesomeIcon onClick={() => window.open('https://drive.google.com/file/d/1eRqaXVVJUdR8qTtutR80ODUCoKeMGcOr/view')} className={isPhoneIcon} icon= {faFileCsv}/>
 
                     </div>
                 </div>
