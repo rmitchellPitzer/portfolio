@@ -45,9 +45,10 @@ const Page1 = (props) => {
             </a></button>
                 
             <button onMouseOver={() => setResume("#fae8ff")} onMouseLeave={() => setResume("black")} className='flex text-start'>
+                <a href="https://drive.google.com/file/d/1BkflYXu9vuxcZaJU0hPQsqmulBv3zX40/view?usp=sharing" target="_blank">
                 <div className='border text-lg text-[80%] flex-none flex flex-row border-black  duration-700	rounded-3xl px-3 items-center justify-center gap-1 h-14'> 
                     <AiFillFileText className='duration-700' color={resume} size={40}/> My Resume
-                </div>
+                </div></a>
             </button>
                   
             <button onClick={() =>       element.scrollIntoView({ behavior: 'smooth' })} onMouseOver={() => setWork("#fae8ff")} onMouseLeave={() => setWork("black")} className='flex text-start'>
@@ -79,10 +80,12 @@ const Page1 = (props) => {
             <div className='z-20 font-thin flex gap-4 flex-row'>
     
                 <button onMouseOver={() => setResume("#fae8ff")} onMouseLeave={() => setResume("black")} className='flex text-start'>
+                <a href="https://drive.google.com/file/d/1BkflYXu9vuxcZaJU0hPQsqmulBv3zX40/view?usp=sharing" target="_blank">
+
                     <div className='border text-lg text-[80%] flex-none flex flex-row border-black duration-700	rounded-3xl px-3 items-center justify-center gap-1 h-14'> 
                         <AiFillFileText className='duration-700' color={resume} size={30}/> 
                             My Resume
-                    </div>
+                    </div></a>
                 </button>
 
                 <div className='w-[8%] flex justify-around text-start'> 
@@ -138,9 +141,12 @@ const Page1 = (props) => {
                   </a></button>
                       
                   <button onMouseOver={() => setResume("#fae8ff")} onMouseLeave={() => setResume("black")} className='flex text-start'>
+                  <a href="https://drive.google.com/file/d/1BkflYXu9vuxcZaJU0hPQsqmulBv3zX40/view?usp=sharing" target="_blank">
+
                       <div className='border text-lg text-[80%] flex-none flex flex-row border-black  duration-700	rounded-3xl px-3 items-center justify-center gap-1 h-14'> 
                           <AiFillFileText className='duration-700' color={resume} size={40}/> My Resume
                       </div>
+                      </a>
                   </button>
                         
                   <button onClick={() =>       element.scrollIntoView({ behavior: 'smooth' })} onMouseOver={() => setWork("#fae8ff")} onMouseLeave={() => setWork("black")} className='flex text-start'>
@@ -172,10 +178,13 @@ const Page1 = (props) => {
                   <div className='z-20 font-thin flex gap-4 flex-row'>
           
                   <button onMouseOver={() => setResume("#fae8ff")} onMouseLeave={() => setResume("black")} className='flex text-start'>
+                  <a href="https://drive.google.com/file/d/1BkflYXu9vuxcZaJU0hPQsqmulBv3zX40/view?usp=sharing" target="_blank">
+
                     <div className='border text-lg text-[80%] flex-none flex flex-row border-black duration-700	rounded-3xl px-3 items-center justify-center gap-1 h-14'> 
                         <AiFillFileText className='duration-700' color={resume} size={30}/> 
                             My Resume
                     </div>
+                    </a>
                 </button>
 
                 <div className='w-[8%] flex justify-around text-start'> 
