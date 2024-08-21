@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rydermitchell.com/sitemap-index.xml

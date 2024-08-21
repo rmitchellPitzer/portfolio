@@ -4,6 +4,11 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: "https://astro-nano-demo.vercel.app",
+  site: "https://rydermitchell.com",
   integrations: [mdx(), sitemap(), tailwind()],
+  output: "static",
+  outDir: "./docs",
+  build: {
+    assets: "astro"
+  }
 });
